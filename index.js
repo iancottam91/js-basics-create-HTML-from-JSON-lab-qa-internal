@@ -1,6 +1,8 @@
 const button = document.getElementById('Titanic');
 
-button.addEventListener
+button.addEventListener('click', function() {
+  populateTitanic();
+});
 
 
 function populateTitanic() {
