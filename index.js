@@ -1,7 +1,7 @@
 const button = document.getElementById('Titanic');
 
 button.addEventListener('click', function() {
-  populateTitanic('Titanic');
+  populateMovie('Titanic');
 });
 
 
