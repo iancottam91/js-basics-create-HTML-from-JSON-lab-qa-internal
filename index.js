@@ -1,12 +1,12 @@
 const button = document.getElementById('Titanic');
 
 button.addEventListener('click', function() {
-  populateTitanic();
+  populateTitanic('Titanic');
 });
 
 
 function populateMovie(movieName) {
-  const title = movies.[movieName]['title'];
+  const title = movies[movieName]['title'];
   const director = movies[movieName].director;
   const genre = movies[movieName].genre;
   
