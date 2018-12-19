@@ -4,9 +4,6 @@ button.addEventListener('click', function() {
   populateMovie('Terminator 2');
 });
 
-
-
-
 function populateMovie(movieName) {
   const title = movies[movieName]['title'];
   const director = movies[movieName].director;
