@@ -1,5 +1,7 @@
 const button = document.getElementById('Titanic');
 
+button.addEventListener
+
 
 function populateTitanic() {
   const title = movies.Titanic['title'];
