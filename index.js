@@ -1,5 +1,5 @@
 const title = movies.Titanic['title'];
-
+document.getElementById('title').innerText = title;
 
 
 
